@@ -1,0 +1,39 @@
+.user {
+    padding-top: 150px;
+
+    & .user__info {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    & .user__hed {
+        padding-top: 140px;
+    }
+
+    & .user__heading {
+        max-width: 445px;
+        width: 100%;
+        color: var(--color--Green);
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.369px;
+    }
+
+    & .user__text {
+        max-width: 445px;
+        width: 100%;
+        color: var(--color--Green);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+
+    & .user__img {
+        transform: translate(97px);
+    }
+}

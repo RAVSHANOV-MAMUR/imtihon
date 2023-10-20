@@ -1,0 +1,56 @@
+.email {
+    & .email__heading {
+        max-width: 445px;
+        color: var(--color--Green);
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.369px;
+    }
+
+    & .eamil--form {
+        transform: translate(710px, -155px);
+    }
+
+    & .email--input {
+        border-radius: 24px;
+        background: var(--color-Oq);
+        border: none;
+        padding: 15px 100px;
+    
+        color: var(--color--Green);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    & .email--button {
+        max-width: 173px;
+        width: 100%;
+        height: 48px;
+        border-radius: 24px;
+        background: var(--color-Red);
+        border: none;
+        position: relative;
+        transform: translate(-70px);
+        cursor: pointer;
+        color: var(--color-Oq);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        max-width: 173px;
+        width: 100%;
+        height: 48px;
+    }
+
+    & .email--button:hover {
+        color: var(--color-Qora);
+    }
+}

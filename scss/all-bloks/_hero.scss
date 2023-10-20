@@ -1,0 +1,143 @@
+.hero {
+    padding-top: 86px;
+
+    .form {
+        display: flex;
+    }
+    .hero__info {
+        display: flex;
+    }
+
+    .hero__div {
+        padding-top: 80px;
+    }
+
+    .hero__img {
+        transform: translate(208px, 70px);
+        max-width: 303px;
+        width: 100%;
+        height: 600px;
+
+    }
+
+    & .heading {
+        width: 546px;
+        height: 243px;
+        flex-shrink: 0;
+        color: var(--color-Green);
+        font-family: "DM Serif Display";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px; 
+        letter-spacing: -0.554px;
+    }
+    & .input {
+        border-radius: 24px;
+        background: var(--color-Oq);
+        border: none;
+        padding: 15px 100px;
+    
+        color: var(--color-Green);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+    }
+    
+
+    & .button {
+        max-width: 173px;
+        width: 100%;
+        height: 48px;
+        border-radius: 24px;
+        background: #BA4270;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        transform: translate(-70px);
+
+        color: #FBFCFE;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        max-width: 173px;
+        width: 100%;
+        height: 48px;
+    }
+
+    & .button:hover {
+        color: var(--color-Qora);
+    }
+
+    & .text {
+        color: #6C8294;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 40px;
+    }
+
+    & .strong {
+        color: #6C8294;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .hero{
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .hero__heading{
+        text-align: center;
+    }
+
+    .hero__info{
+        position: absolute;
+        margin-top: 300px;
+    }
+
+    .hero__text{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:606px) {
+
+    .hero__info{
+        margin-top: -50px;
+    }
+    .hero__input{
+        padding: 14px 165px;
+        transform: translateX(20px);
+
+    }
+
+    .hero__button{
+        margin-top: 10px;
+        padding: 14px 200px;
+        transform: translateX(20px);
+    }
+}
+
+
+
+
+
+

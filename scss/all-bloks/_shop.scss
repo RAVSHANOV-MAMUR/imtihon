@@ -1,0 +1,37 @@
+.shop {
+    padding-top: 150px;
+
+    & .shop__list {
+        display: flex;
+        gap: 30px;
+
+        & .shop__img {
+            text-align: center;
+            transform: translate(125px);
+        }
+
+        & .shop__heading {
+            max-width: 350px;
+            width: 100%;
+            color: var(--color--Green);
+            text-align: center;
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px; 
+            letter-spacing: -0.138px;
+        }
+
+         & .shop__text {
+            color: var(--color--Green);
+            text-align: center;
+            font-family: "Public Sans";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: -0.115px;
+         }
+    }
+}
